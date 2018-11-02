@@ -1,0 +1,34 @@
+{
+  "name": "huevember-creator",
+  "version": "1.0.0",
+  "description": "Tool that generates the color hex and a day prompt word for each day of Huevember. Rules for the challenge here: http://huevember.tumblr.com/rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brennx0r/huevember-creator.git"
+  },
+  "keywords": [
+    "huevember",
+    "promptwords",
+    "website",
+    "generator"
+  ],
+  "author": "Brenna Flood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brennx0r/huevember-creator/issues"
+  },
+  "homepage": "https://github.com/brennx0r/huevember-creator#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
+  }
+}

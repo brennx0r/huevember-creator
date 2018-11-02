@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p To generate a new Huevember list with new prompt words, refresh this page! <3
+
+block words
+  ul
+  each val, index in words
+    li= index+1 + ': ' + val
+
