@@ -1,11 +1,15 @@
 extends layout
 
-block content
+block title
   h1= title
-  p To generate a new Huevember list with new prompt words, refresh this page! <3
+  
 
 block words
   ul
   each val, index in words
-    li= index+1 + ': ' + val
+    li= index+1 + ': ' + val 
 
+block wheel
+  - var img = "../images/huevember-wheel.png"
+  img(src=img)    
+  p To generate a new Huevember list with new prompt words, refresh this page! <3
